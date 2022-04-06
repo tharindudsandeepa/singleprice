@@ -1,0 +1,143 @@
+body{
+    background-color: hsl(204, 42%, 88%);
+    font-family: 'Karla', sans-serif;
+    margin:0;
+    padding: 0;
+    
+}
+.card{
+    background-color: hsl(218, 43%, 99%);
+    margin:100px auto;
+    width:720px;
+    border-radius: 12px;
+    padding: 0;
+    box-shadow: gray;
+}
+.header{
+    color:hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-top:35px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.header-desc{
+   color: hsl(71, 73%, 54%);
+   font-weight: 700;
+   font-size: 18px;
+
+}
+.header-para{
+    color:hsl(218, 22%, 67%);
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 28px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.top{
+    margin-left: 30px;
+}
+.bottom{
+    
+    border-radius:0 0 12px 12px;
+    color:aliceblue;
+    margin-left:0;
+    padding: 0;
+}
+.up{
+    margin-left: 0;
+    margin-top: 20;
+    background-color: hsl(179, 62%, 43%);
+    padding: 0;
+    border-radius:0 0 0 15px;
+}
+.up p{
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.dollar{
+    color:aliceblue;
+    font-weight: 700;
+    font-size: 30px;
+}
+.per{
+    color: hsl(218, 22%, 83%);
+    font-size: 16px;
+}
+.monthly{
+    margin-top: 30px;
+    margin-left:30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.down{
+    background-color:#4bbebc;
+    border-radius:0 0 15px 0;
+}
+button{
+    margin-left: 30px;
+    width:237px;
+    border: none;
+    padding: 10px;
+    border-radius:8px;
+    background-color: hsl(71, 73%, 54%);
+    color:aliceblue;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.down h4{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.down p{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 800px) {
+    .up{
+        width:360px;
+    }
+    .down{
+        width:360px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .card{
+        width:540px;
+        font-size:15px;
+    }
+    .up{
+        width:540px;
+        border-radius:0 0 0 0;
+    }
+    .down{
+        width:540px;
+        border-radius:0 0 15px 15px;
+    }
+    .header-para{
+        width:320px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .card{
+        width:360px;
+        font-size:15px;
+    }
+    .up{
+        width:360px;
+        border-radius:0 0 0 0;
+    }
+    .down{
+        width:360px;
+        border-radius:0 0 15px 15px;
+    }
+    .header-para{
+        width:320px;
+    }
+}
